@@ -1,0 +1,123 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+.remove-all-button {
+  border-style: none;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #0b69ff;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.order-summary-container {
+  align-self: flex-end;
+}
+
+.order-total-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #616e7c;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .order-total-text {
+    font-size: 24px;
+  }
+}
+
+.order-total-price {
+  color: #171f46;
+  font-weight: bold;
+}
+
+.cart-items-count {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #616e7c;
+  margin-top: 0px;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-items-count {
+    font-size: 14px;
+  }
+}
+
+.checkout-button-sm {
+  display: block;
+  width: 100%;
+  height: 35px;
+  border-radius: 6px;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ffffff;
+  border-style: none;
+  outline: none;
+}
+
+.checkout-button-md {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .checkout-button-sm {
+    display: none;
+  }
+
+  .checkout-button-md {
+    display: block;
+    width: 100%;
+    height: 35px;
+    border-radius: 6px;
+    background-color: #0b69ff;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #ffffff;
+    border-style: none;
+    outline: none;
+  }
+}
